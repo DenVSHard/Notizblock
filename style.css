@@ -1,0 +1,38 @@
+body {
+    margin: o;
+    background-color: darkkhaki;
+}
+
+.writer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.headline {
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 48px;
+    color: #5f6368;
+}
+
+.add {
+    resize: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.card {
+    display: inline-block;
+    margin: 8px;
+    border-radius: 8px;
+    max-width: 239px;
+    word-wrap: break-word;
+    margin-top: 56px;
+    background-color: white;
+    box-shadow: 0 0 8px 11px rgb(0 0 0 / 14%);
+    padding: 8px;
+    margin-bottom: 32px;
+}
